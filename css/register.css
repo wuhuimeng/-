@@ -1,0 +1,61 @@
+			.c-header{
+				width: 1519.2px;
+			}
+			.c-header{
+				height: 100px;
+				
+			}
+			.c-header-inner{
+				margin: 0 auto;
+			}
+			.c-content{
+				height: 650px;
+				background: url(../imgs/login/15487540172274.jpg);
+			}
+			.c-footer{
+				width: 1000px;
+				height: 78px;
+			}
+			.c-logo{
+				background: url(../imgs/login/sprites-hash-c9975078.png);
+				background-position: 312px 270px;
+				float: left;
+			}
+			.c-service{
+				background: url(../imgs/login/sprites-hash-c9975078.png);
+				background-position: 620px 325px;
+				float: right;
+			}
+			.logind{
+				float: right;
+				background-color: #fff;
+			}
+			.txt{
+				font-size: 12px;
+			}
+			.sys{
+				width: 16px;
+				height: 16px;
+				background: url(../imgs/login/sprites-hash-c9975078.png);
+				background-position:1920px 800px;
+				float: left;
+				margin-left: 70px;
+			}
+			.login-container ul li{
+				float: left;
+				font-size: 12px;
+				line-height: 24px;
+			}
+			.login-container ul li+li{
+				margin-left: 10px;
+			}
+			.login-container ul li a{
+				text-decoration: none;
+			}
+			.c-register-login{
+				font-size: 14px;
+			}
+			.c-form-group{
+				width: 300px;
+				height: 67px;
+			}

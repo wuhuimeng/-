@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.c-container{
+				background: url(../imgs/login/15487540172274.jpg);
+				margin-left: -8px;
+			}
+			#p1,#p2{
+				visibility: hidden;
+			}
+		</style>
+		<script type="text/javascript">
+			
+			// 	var uname=document.getElementById("uname");
+			// 	var psw=document.getElementById("psw");
+				var p1=document.getElementById("p1");
+				var p2=document.getElementById("p2");
+		            function checkuname(){
+					console.log("55555");
+					var _uname=document.getElementById("uname").value;
+					if(!_uname){
+						p1.innerHTML='用户名不能为空'
+					}else{
+						p1.style.visibility="hidden"
+					}
+				}
+			
+		</script>
+	</head>
+	<body>
+
+		<form action="" method="">
+			<input type="text" name="" id="uname" value="" placeholder="请输入用户名" onblur="checkuname()"/>
+			<p id="p1"></p>
+			<input type="text" name="" id="psw" value="" placeholder="请输入密码" onblur="checkpsw()"/>
+			<p id="p2"></p>
+			<button type="button">提交</button>
+		</form>
+
+	</body>
+</html>
